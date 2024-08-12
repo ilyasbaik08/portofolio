@@ -1,0 +1,434 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+}
+
+body{
+    /* overflow-x: hidden; */
+}
+
+#header{
+    padding: 40px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #7BD3EA;
+}
+
+ .navbar ul{
+    display: flex;
+   list-style: none;
+   gap: 30px;
+   align-items: center;
+} 
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #000;
+    transition: .3s ease-in;
+}
+
+
+#home{
+    width: 100%;
+    height: 80vh;
+    max-width: 1296px;
+    min-width: 320px;
+    padding: 80px 32px;
+    /* margin-block: 2rem 4rem;
+    padding-inline: 2rem;
+    margin-inline: auto; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-inline: auto;
+}
+
+.container-home{
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.container-home-title{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.container-home-title p {
+    font-size: 22px;
+    font-weight: 300;
+    color: black;
+}
+
+.container-home-title h2{
+    font-size: 55px;
+    text-align: left;
+    color: #7BD3EA;
+}
+
+.container-home-title .job{
+    font-size: 26px;
+}
+.container-home-title .keterangan{
+    font-size: 16px;
+}
+
+.btn-home {
+    background-color: #7BD3EA;
+    padding: 12px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn-contact-me a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.container-home-img img{
+    width: 400px;
+}
+
+#about{
+    width: 100%;
+    height: 50vh;
+    max-width: 1296px;
+    min-width: 420px;
+    padding: 80px 32px;
+    margin-inline: auto;
+}
+
+.container-about {
+    display: flex;
+    gap: 42px;
+}
+
+.container-about-title{
+    display: flex;
+}
+
+.about-me{
+    width: 50%;
+} 
+
+.about-me h2{
+    font-size: 1.8rem;
+    margin-bottom: 16px;
+}
+
+.about-me p {
+  
+}
+
+.judul {
+    color: #7BD3EA;
+    font-size: 1.5rem;
+}
+
+
+.sosmed{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.sosmed h2{
+    font-size: 30px;
+}
+
+.icons{
+    display: flex;
+}
+
+.icons a{
+    text-decoration: none;
+}
+
+.icons img{
+    width: 36px;
+    margin: 0px 12px;
+}
+
+#project{
+    width: 100%;
+    max-width: 1296px;
+    min-width: 420px;
+    padding: 80px 32px; 
+    margin-inline: auto;
+}
+
+#project h2{
+    text-align: center;
+    margin-bottom: 3rem;
+    color: #7BD3EA; 
+    font-size: 24px;
+}
+
+.container-project{
+    display: flex;
+    gap: 48px;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+.container-img {
+    min-width: 320px;
+    flex: 2;
+    display: flex;
+}
+
+.container-img img{
+    width: 100%;
+    max-width: 500px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
+
+.container-title p {
+    margin-bottom: 2.5rem;
+}
+
+.right-content {
+    order: 1;
+}
+
+.btnkuy{
+    background-color: #7BD3EA;
+    padding: 12px;
+    border-radius: 8px;
+    color: #fff;
+    text-decoration: none;
+}
+
+#contact{
+    width: 100%;
+    max-width: 1296px;
+    min-width: 420px;
+    padding: 80px 32px;
+    margin-inline: auto;
+    
+}
+
+#contact h2{
+    text-align: center;
+    color: #7BD3EA;
+    font-size: 24px;
+}
+
+#contact h3{
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #000;
+    font-size: 44px;
+}
+
+#contact p{
+    text-align: center;
+    margin-bottom: 3rem;
+    color: grey;
+    font-size: 18px;
+}
+
+.card-contact{
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    width: fit-content;
+    margin-top: 40px;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.card-contact-form h2 {
+    padding-top: 20px;
+}
+
+.card-contact-form form {  
+    padding: 40px 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+#name, #email, #massage{
+    width: 300px;
+    padding: 10px;
+    margin-top: 16px;
+}
+
+.btn-send{
+    margin-top: 26px;
+}
+
+.btn-send a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #7BD3EA;
+    padding: 10px 20px;
+}
+
+footer{
+    text-align: center;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
+
+@media (max-width: 1024px)  {
+    #header {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .logo {
+        margin-bottom: 10px;
+    }
+
+    .container-home {
+        flex-direction: column;
+        gap: 70px;
+    }
+
+    .container-home p {
+        font-size: 1.1rem;
+    }
+
+    .container-home h2 {
+        font-size: 2rem;
+        font-weight: 600;
+    }
+
+    .container-home-img img{
+        width: 300px;
+    }
+
+    #about {
+        height: 90vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 130px;
+    }
+
+    .container-about {
+        flex-direction: column;
+    }
+
+    .about-me {
+        width: 100%;
+    }
+
+    .sosmed {
+        width: 100%;
+    }
+
+    .container-project{
+        flex-direction: column;
+    }
+
+    .card-contact{
+        width: 350px;   
+    }
+
+    #name, #email, #message {
+        width: 300px;
+    }
+
+    .card-contact-form form {
+        padding: 40px 25px;
+    }
+
+}
+
+/* @media (max-width: 1024px) {
+    #header{
+        padding: 24px 0px;
+        display: block;
+    }
+
+    #header h2{
+        font-size: 34px;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .navbar ul{
+        text-align: center;
+        justify-content: center;
+    }
+
+    #home{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-home-img img{
+        width: 300px;
+    }
+
+    #about{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .about-me h2{
+        font-size: 12px;
+    }
+
+    .about-me p{
+        font-size: 14px;
+        margin-bottom: 1rem;
+    }
+
+    .sosmed h2{
+        font-size: 26px;
+    }
+
+    .sosmed p{
+        font-size: 14px;
+    }
+
+    #name, #email, #massage{
+        width: 250px;
+        padding: 10px;
+        margin-top: 16px;
+        align-items: center;
+    }
+} */
+
+/* @media (max-width: 768px) { */
+    /* .container-title {
+        min-width: none;
+    }
+
+    .right-content {
+        order: 0;
+    }
+
+    .about-me {
+        min-width: none;
+    } */
+
+/* } */
+

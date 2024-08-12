@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header id="header">
+        <div class="logo">
+            <a href="#home">
+                <h2>Ilyas</h2>
+            </a>
+        </div>
+
+        <!-- membuat humberger -->
+        <div class="menu-toogle" onclick="menuToogle()"></div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home" onclick="menuToogle()">Home</a></li>
+                <li><a href="#about" onclick="menuToogle()">About</a></li>
+                <li><a href="#project" onclick="menuToogle()">Project</a></li>
+                <li><a href="#contact" onclick="menuToogle()">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="container-home">
+            <div class="container-home-title">
+                <p>Hello guys👋,I'm</p>
+                <h2>Ilyas</h2>
+                <p><span>IT Student |</span> Front-End Developer</p>
+                <p>
+                    Saya akan mendesain dan membuat website anda menjadi website yang
+                    indah dan keren
+                </p>
+                <a href="#" class="btn-home"> Contact me </a>
+            </div>
+            <div class="container-home-img">
+                <img src="asset/gambar1.jpg" width="10" />
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container-about">
+            <div class="about-me">
+                <h3 class="judul">ABOUT ME</h3>
+                <h2>an IT student who like Web Programming</h2>
+                <p>
+                    Halo semua👋!, saya Ilyas. Saya sedang fokus di web pemrograman.
+                    Saya bersemangat sekali untuk belajar web pemrograman dan teknologi.
+                </p>
+            </div>
+            <div class="sosmed">
+                <h2>Let's be friends</h2>
+                <p>
+                    Ingin lebih mengenal tentang saya dan menjalin hubungan pertemanan
+                    dengan saya? atau hal lainnya? silahkan kunjungi sosial media saya
+                    dibawah ini👇
+                </p>
+                <div class="icons">
+                    <a href="#">
+                        <img src="asset/instagram_3661391.png" />
+                        <img src="asset/linkedin-logo.png" />
+                        <img src="asset/whatsapp copy.png" />
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="project">
+        <h2>PROJECT</h2>
+        <div class="container-project">
+            <div class="container-img">
+                <img src="asset/markly.png" alt="marklyweb" />
+            </div>
+            <div class="container-title">
+                <h3>MARKLY WEB</h3>
+                <p>
+                    markly web adalah proyek situs web yang menampilkan halaman utama
+                    situs web markly yang saya salin untuk praktik desain antarmuka.
+                </p>
+                <a href="#" class="btnkuy"> See project </a>
+            </div>
+        </div>
+        <div class="container-project">
+            <div class="container-img right-content">
+                <img src="asset/webkuliner.png" alt="webkuliner" />
+            </div>
+            <div class="container-title">
+                <h3>MAKAN KUY</h3>
+                <p>
+                    MAKAN KUY adalah website kuliner yang menyediakan berbagai resep
+                    masakan dari berbagai jenis.
+                </p>
+                <a href="#" class="btnkuy"> See project </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>CONTACT</h2>
+        <h3>Contact Me, I'll always be there</h3>
+        <p>
+            Hubungi saya melalui platform di bawah ini. <br />Saya akan membantu dan
+            terbuka untuk siapapun
+        </p>
+        <div class="card-contact">
+            <div class="card-contact-form">
+                <h2>Send Massage</h2>
+                <form>
+                    <input id="name" type="text" placeholder="Name">
+                    <input id="email" type="email" placeholder="Email" />
+                    <input id="massage" type="text" placeholder="Massage" />
+
+                    <div class="btn-send"><a href="#">SEND</a></div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer>Ilyas | Front-End Developer</footer>
+</body>
+
+</html>
